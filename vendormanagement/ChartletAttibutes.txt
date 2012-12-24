@@ -1,0 +1,103 @@
+Chartlet  奉來双燕  井云v0.94
+
+Chartlet-Smart Chart Control For .Net2.0/.Net3.5  Copyright (C) 2009 FanG Corp.
+
+
+児云奉來
+！！！！！！！！！！！！！！！！
+ID			System.String
+ShowCopyright		System.Boolean
+InflateWidth		System.Int32
+InflateHeight		System.Int32
+ShowErrorInfo		System.Boolean
+Colorful			System.Boolean
+AutoBarWidth		System.Boolean
+Alpha3D			System.Byte
+Depth3D			System.Int32
+Dimension		FanG.Chartlet.ChartDimensions
+RootPath			System.String
+ImageFolder		System.String
+ChartType		FanG.Chartlet.ChartTypes
+GroupSize		System.Int32
+MaxValueY		System.Double
+MinValueY		System.Double
+RoundRectangle		System.Boolean
+RoundRadius		System.Int32
+LineConnectionType		FanG.Chartlet.LineConnectionTypes
+LineConnectionRadius	System.Int32
+AppearanceStyle		FanG.Chartlet.AppearanceStyles
+
+鹸栽奉來
+！！！！！！！！！！！！！！！！
+ChartTitle			FanG.TextAttributes
+	Text			System.String
+	Show			System.Boolean
+	Font			System.Drawing.Font
+	ForeColor			System.Drawing.Color
+	BackColor		System.Drawing.Color
+
+Fill			FanG.Painting
+	ColorStyle		FanG.Chartlet+ColorStyles
+	ShiftStep			System.Int32
+	TextureStyle		System.Drawing.Drawing2D.HatchStyle
+	Color1			System.Drawing.Color
+	Color2			System.Drawing.Color
+	Color3			System.Drawing.Color
+	TextureEnable		System.Boolean
+
+Stroke			FanG.StokeStyle
+	Width			System.Int32
+	ColorStyle		FanG.Chartlet+ColorStyles
+	ShiftStep			System.Int32
+	TextureStyle		System.Drawing.Drawing2D.HatchStyle
+	Color1			System.Drawing.Color
+	Color2			System.Drawing.Color
+	Color3			System.Drawing.Color
+	TextureEnable		System.Boolean
+
+Crystal			FanG.CrystalAttributes
+	Enable			System.Boolean
+	CoverFull			System.Boolean
+	Contraction		System.Int32
+	Direction			FanG.Chartlet.Direction
+
+Shadow			FanG.ShadowAttributes
+	Enable			System.Boolean
+	Radius			System.Int32
+	Distance			System.Int32
+	Color			System.Drawing.Color
+	Alpha			System.Byte
+	Angle			System.Single
+	Hollow			System.Boolean
+
+ColorGuider		FanG.Attributes
+	Show			System.Boolean
+	Font			System.Drawing.Font
+	ForeColor			System.Drawing.Color
+	BackColor		System.Drawing.Color
+
+Tips			FanG.Attributes	
+	Show			System.Boolean
+	Font			System.Drawing.Font
+	ForeColor			System.Drawing.Color
+	BackColor		System.Drawing.Color
+
+YLabels			FanG.LabelsAttributes
+	UnitText			System.String
+	UnitFont			System.Drawing.Font
+	Show			System.Boolean
+	Font			System.Drawing.Font
+	ForeColor			System.Drawing.Color
+	BackColor		System.Drawing.Color
+
+XLabels			FanG.XLabelsAttributes
+	SampleSize		System.Int32
+	RotateAngle		System.Single
+	UnitText			System.String
+	UnitFont			System.Drawing.Font
+	Show			System.Boolean
+	Font			System.Drawing.Font
+	ForeColor			System.Drawing.Color
+	BackColor		System.Drawing.Color
+！！！！！！！！！！！！！！！！
+End of document

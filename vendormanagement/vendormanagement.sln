@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\vendormanagement\", ".", "{1D64579B-78FB-4AD3-B6EA-D9FDBABF4318}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/vendormanagement"
+		Debug.AspNetCompiler.PhysicalPath = "E:\vendormanagement\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\vendormanagement\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/vendormanagement"
+		Release.AspNetCompiler.PhysicalPath = "E:\vendormanagement\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\vendormanagement\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1037"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D64579B-78FB-4AD3-B6EA-D9FDBABF4318}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1D64579B-78FB-4AD3-B6EA-D9FDBABF4318}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,88 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OFFICEMASTER_FINANCE.master.cs" Inherits="OFFICEPAGES_OFFICE_FINANCE" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body bgcolor="#666633">
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;<br />
+        <br />
+        <br />
+        <br />
+        &nbsp;<strong><span style="font-size: 24pt; color: #660000">EMPLOYEES ARE WELCOME TO
+            ELECTROMOTIVE<br />
+        </span></strong>
+        <br />
+        <br />
+        <strong><span style="font-size: 16pt; color: #333300">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp;&nbsp; YOU ARE CURRENTLY IN FINANCE DEPARTMENT DEPT.</span></strong><br />
+        <br />
+        <table style="left: 106px; position: relative; top: 0px">
+            <tr>
+                <td style="width: 92px">
+                    <asp:Button ID="BTNOFFFINMANHOM" runat="server" Font-Bold="True" PostBackUrl="~/OFFICEPAGES/OFFICE_FINANCE_HOME.aspx"
+                        Style="position: relative" Text="HOME" Width="197px" BackColor="#404000" ForeColor="#E0E0E0" /></td>
+                <td style="width: 147px"><asp:Button ID="BTNLOGOUT" runat="server" Font-Bold="True"
+                        Style="position: relative" Text="LOGOUT" Width="197px" BackColor="#404000" ForeColor="#E0E0E0" OnClick="BTNLOGOUT_Click" /></td>
+                <td style="width: 100px"><asp:Button ID="BTNOFFFINVIE" runat="server" Font-Bold="True" PostBackUrl="~/OFFICEPAGES/OFFICE_FINANCE_VIEWPROFILE.aspx"
+                        Style="left: 0px; position: relative; top: 0px" Text="VIEW PROFILE" Width="197px" BackColor="#404000" ForeColor="#E0E0E0" /></td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/w-asp-pcb.jpg" Style="left: 106px;
+            position: relative; top: -49px" Width="603px" Height="131px" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <table style="position: relative; left: 30px; top: -184px;">
+            <tr>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp;&nbsp;</asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
